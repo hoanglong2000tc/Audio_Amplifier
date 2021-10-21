@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=+12 Pin=JDC-1
+Added Component: Designator=switch(jp2h)
+Add component (AddParameter): Name = "Value"; Value = "JP 2"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+12 Pin=switch-1
+Change Net Name : Old Net Name=+12 New Net Name=NetQ2_2
+Added Pin To Net: NetName=+12 Pin=JDC-1
+Added Pin To Net: NetName=+12 Pin=switch-2
+Added Net: Name=+12
+Added Member To Class: ClassName=amplifier Member=Component switch Jumper 2

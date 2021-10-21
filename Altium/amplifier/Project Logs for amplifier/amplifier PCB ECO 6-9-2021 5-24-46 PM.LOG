@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=NetQ2_2 Pin=SW?-2
+Removed Member From Class: ClassName=amplifier Member=SW?
+Added Pin To Net: NetName=NetQ2_2 Pin=JDC-1
+Change Net Name : Old Net Name=NetQ2_2 New Net Name=+12

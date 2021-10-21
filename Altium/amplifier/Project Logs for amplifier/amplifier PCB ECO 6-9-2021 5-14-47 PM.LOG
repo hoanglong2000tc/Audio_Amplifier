@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=+12 Pin=JDC-1
+Added Component: Designator=SW?(SW1-SMD)
+Add component (AddParameter): Name = "Value"; Value = "SW chip 2 pin"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+12 Pin=SW?-2
+Change Net Name : Old Net Name=+12 New Net Name=NetQ2_2
+Added Pin To Net: NetName=+12 Pin=JDC-1
+Added Pin To Net: NetName=+12 Pin=SW?-1
+Added Net: Name=+12
+Added Member To Class: ClassName=amplifier Member=Component SW? SW

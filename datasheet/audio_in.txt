@@ -1,0 +1,8 @@
+Commercial line out specification is to be able to drive 1 milliwatt to a 600 ohm load. For a sine wave, this means a voltage of 0.77 volts RMS (2.2 volts peak-to-peak) and a current of 1.3 milliamperes RMS (3.6 milliamperes peak-to-peak).
+
+The audio range of the earphone of a cell phone can't be counted on to go below 100Hz - some phones will go lower, some will not even get down to 100Hz.
+The audio range of the microphone of a cell phone can't be counted on to go below 100Hz - some phones will go lower, some will not even get down to 100Hz.
+The phone itself will not convert from some nebulous, undefined "data" to audio or from audio back to data - your software will have to do that.
+To work around the limitations of the cellphone audio, you would be better advised to modulate the data on to an audio frequency that the phone can handle - in the middle of the speech band is probably best, so 1200Hz to 1800Hz. You can find plenty of data on the internet about frequency shift keying (FSK) or phase shift keying (PSK) for transmitting data across audio systems.
+
+If none of that made sense, then you have a long way to go before you begin working on your data transmission. Read up on things. Define your data format and data rate. See what you can come up with for ways to achieve your goal. If you get stuck, come back and write a better question - and consider telling us what you are trying to do, as someone here may have done it already and can point you at a better way.
